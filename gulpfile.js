@@ -172,8 +172,10 @@ gulp.task('qunit', () => {
 
     let serverConfig = {
         root,
-        port: 8009,
-        host: '0.0.0.0',
+        port: 8000,
+        host: 'localhost',
+        // port: 8009,
+        // host: '0.0.0.0',
         name: 'test-server'
     }
 
