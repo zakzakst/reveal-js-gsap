@@ -2,7 +2,7 @@
 
 >>>
 
-### ***GreenSock社が開発した<br>JSのアニメーションライブラリ**
+### **GreenSock社が開発した<br>JSのアニメーションライブラリ**
 
 https://greensock.com/gsap/
 

@@ -243,9 +243,11 @@ gulp.task('eslint', () => gulp.src(['./js/**', 'gulpfile.js'])
 
 gulp.task('test', gulp.series( 'eslint', 'qunit' ))
 
-gulp.task('default', gulp.series(gulp.parallel('js', 'css', 'plugins'), 'test'))
+// gulp.task('default', gulp.series(gulp.parallel('js', 'css', 'plugins'), 'test'))
+gulp.task('default', gulp.series(gulp.parallel('js', 'css'), 'test'))
 
-gulp.task('build', gulp.parallel('js', 'css', 'plugins'))
+// gulp.task('build', gulp.parallel('js', 'css', 'plugins'))
+gulp.task('build', gulp.parallel('js', 'css'))
 
 gulp.task('package', gulp.series('default', () =>
 
