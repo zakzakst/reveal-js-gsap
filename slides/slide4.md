@@ -2,6 +2,12 @@
 
 >>>
 
+### デモページ
+<hr>
+
+<p style="margin-bottom: 120px"><a href="https://s-ishizaki.sakura.ne.jp/practice/15_nuxt/" target="_blank">https://s-ishizaki.sakura.ne.jp/practice/15_nuxt/</a></p>
+
+
 ### パッケージのインストール
 <hr>
 
